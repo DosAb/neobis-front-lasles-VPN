@@ -32,11 +32,27 @@ a{
   text-decoration: none;
 }
 
+span{
+  font-weight: 500;
+}
+
+p{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #4F5665;
+}
+
 .app{
   max-width: 1140px;
   margin: 0 auto;
 }
 
+
+/* Navigation */
+ 
 nav{
   display: flex;
   align-items: center;
@@ -79,4 +95,43 @@ nav{
   padding: 13px 45px;
   border: 1px solid #F53855;
   color: #F53855;
+}
+
+
+/* Header */
+
+header{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .title{
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: left;
+  color: #0B132A;
+  margin-bottom: 20px;
+}
+
+.header-btn{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: none;
+  background: #F53838;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 17.5px 75.5px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.header-right img{
+  margin-right: -67px;
 }
