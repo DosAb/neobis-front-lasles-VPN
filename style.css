@@ -117,6 +117,26 @@ header .title{
   margin-bottom: 20px;
 }
 
+.header__btn-container{
+  margin-top: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.blur{
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background: #F5383859;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 10px;
+  filter: blur(34px);
+}
+
 .header-btn{
   font-family: Rubik;
   font-size: 16px;
@@ -129,9 +149,54 @@ header .title{
   cursor: pointer;
   padding: 17.5px 75.5px;
   border-radius: 10px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .header-right img{
   margin-right: -67px;
+}
+
+/* Info Section */
+
+.info-section{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.info-section__container{
+  display: flex;
+  gap: 36px;
+  padding: 67px 90px;
+  height: auto;
+  position: relative;
+}
+
+.line{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 80%;
+  width: 2px;
+  background-color: #EEEFF2;
+}
+
+.info-section .blur{
+  position: absolute;
+  top: 50%;
+  /* transform: translateX(0%); */
+  width: 80%;
+  height: 50%;
+  z-index: -1;
+  background-color: #d6d6d6;
+  filter: blur(52px);
+}
+
+
+.features-section{
+  margin-top: 95px;
 }
