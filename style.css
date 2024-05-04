@@ -221,7 +221,6 @@ header .title{
   align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 120px;
-  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
   max-width: 1140px;
   margin: 95px auto 0;
 }
