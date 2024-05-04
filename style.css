@@ -81,9 +81,6 @@ nav{
   line-height: 23.7px;
 }
 
-.plane-section-background{
-  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
-}
 
 .logo__container h4{
   margin-left: 10px;
@@ -256,6 +253,11 @@ header .title{
   gap: 10px;
   margin-bottom: 15px;
 }
+
+.plan-section-background{
+  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+}
+
 
 .plan-section{
   padding-top: 80px;
